@@ -1,21 +1,25 @@
  ## Packages Used
-import streamlit as st # core package used in this project
+import streamlit as st  # core package used in this project
 import pymysql
 import codecs
 import pandas as pd
-import base64,random
-import time,datetime
+import base64
+import random
+import time
+import datetime
 import socket
 import platform
 import geocoder
 import secrets
-import io,random
+import io
+import random
 
 # To create visualisations at the admin session
 import matplotlib.pyplot as plt
-import plotly.express as px               
+import plotly.express as px
 import plotly.graph_objects as go
 from geopy.geocoders import Nominatim
+
 
 # libraries used to parse the pdf files
 from pyresparser import ResumeParser
@@ -24,14 +28,15 @@ from pdfminer3.pdfpage import PDFPage
 from pdfminer3.pdfinterp import PDFResourceManager
 from pdfminer3.pdfinterp import PDFPageInterpreter
 from pdfminer3.converter import TextConverter
-import io,random
+import random
 from streamlit_tags import st_tags
 from PIL import Image
 
 # Pre stored data for prediction purposes
-from Courses import ds_course,web_course,android_course,ios_course,uiux_course,resume_videos,interview_videos
+from Courses import ds_course, web_course, android_course, ios_course, uiux_course, resume_videos, interview_videos
 import pafy
 import nltk
+
 nltk.download('stopwords')
 
 ## Preprocessing functions ##
