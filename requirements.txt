@@ -7,3 +7,4 @@ plotly
 pymysql
 streamlit-tags
 Pillow
+geocoder==1.38.1
